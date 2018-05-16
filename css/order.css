@@ -1,0 +1,36 @@
+html,body{
+  width: 100%;
+  height: 90%;
+  margin:0;
+  padding:0;
+  background-color: #323232;
+}
+
+.order_main{
+  margin:5%;
+  border:solid 1px black;
+  background-color: #E7E7E7;
+  border-radius: 100px 100px 100px 100px;
+  width: 90%;
+  height: 100%;
+}
+header{
+  margin-top: 30px;
+  width: 80%;
+  margin-left: 40px;
+
+  font-size: 50px;
+}
+header img{
+  margin-left: 30px;
+
+}
+.order_section{
+  border:1px solid black;
+  width: 100%;
+  height: 75%;
+}
+.order_section1,.order_section2{
+  display: inline-block;
+  border: solid 1px black;
+}
