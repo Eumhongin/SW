@@ -34,3 +34,26 @@ header img{
   display: inline-block;
   border: solid 1px black;
 }
+.order_section1{
+  margin:1%;
+  background-color: yellow;
+  width: 50%;
+  
+
+}
+.order_section2{
+  margin:1%;
+  background-color: skyblue;
+  width: 40%;
+  height: 90%;
+  min-height: 30%;
+  overflow-y: scroll;
+}
+.img{
+  margin-left: 5%;
+
+}
+.food_img{
+  width: 50%;
+  padding-bottom: 10%;
+}
