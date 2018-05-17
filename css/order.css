@@ -26,34 +26,93 @@ header img{
 
 }
 .order_section{
-  border:1px solid black;
+
   width: 100%;
   height: 75%;
+
 }
 .order_section1,.order_section2{
   display: inline-block;
-  border: solid 1px black;
+  border: 1px solid black;
+
 }
 .order_section1{
-  margin:1%;
-  background-color: yellow;
+  position: absolute;
   width: 50%;
-  
+
+  min-height: 75%;
+
+  margin-left: 3%;
 
 }
 .order_section2{
-  margin:1%;
-  background-color: skyblue;
+  position: absolute;
+  margin-left: 56%;
   width: 40%;
-  height: 90%;
+  height: 50%;
   min-height: 30%;
+  max-height: 45%;
+  max-width: 32%;
   overflow-y: scroll;
 }
 .img{
   margin-left: 5%;
-
 }
 .food_img{
-  width: 50%;
-  padding-bottom: 10%;
+  border: 3px solid black;
+  padding:20px;
+  border-radius: 30px;
+  width: 450px;
+}
+.food_Description{
+  width: 70%;
+
+  margin: 0 0 1% 5%;
+}
+.take{
+  position: absolute;
+  margin-top: 32%;
+  margin-left: 40%;
+  display: inline-block;
+}
+
+
+.current{
+  border: 1px solid black;
+  width: 70%;
+  height: 50%;
+}
+.container{
+  border: 1px solid black;
+  border-radius: 30px;
+  display: inline-block;
+  position: relative;
+  width: 25%;
+  height: 60px;
+  text-align: center;
+  font-size:45px;
+  margin-left: 5%;
+  background-color: white;
+}
+.current_receipt{
+  border: 1px solid black;
+  margin:5% 0 0 0;
+
+}
+.receipt_img{
+  width: 5%;
+  border: 1px solid black;
+  display: inline-block;
+}
+.receipt_text{
+  position: absolute;
+  display: inline-block;
+  border: 1px solid black;
+  margin-left: 1%;
+  width: 70%;
+  max-height: 60%;
+  overflow-y: scroll;
+}
+.receipt_img img{
+  width: 100%;
 }
