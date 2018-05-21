@@ -14,7 +14,7 @@ function tmp(){
   alert(temp);
 }
 function open_window(){
-  window.open("te.html"+alert("hello"));
+  window.open("te.html");
 
   return false;
 }
