@@ -118,7 +118,7 @@
 
         <footer>
           <div class="take">
-            <a href="order_do2.html"><img src="img/order/take.jpg" alt="" ></a>
+            <a href="#" <input type="button" onclick="return quitBox('quit');"><img src="img/order/take.jpg" alt="" ></a>
 
           </div>
 
@@ -128,6 +128,22 @@
 
 
     </div>
+    <script language="javascript">
+
+function quitBox(cmd)
+{
+    if (cmd=='quit')
+    {
+       open(location, '_self').close();
+    }
+    return false;
+}
+
+</script>
+
+
+
+
 
   </body>
 </html>
