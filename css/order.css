@@ -33,7 +33,7 @@ header img{
 }
 .order_section1,.order_section2{
   display: inline-block;
-  
+
 
 }
 .order_section1{
@@ -115,4 +115,7 @@ header img{
 }
 .receipt_img img{
   width: 100%;
+}
+select{
+  margin-top: 5%;
 }
