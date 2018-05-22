@@ -71,8 +71,14 @@ header img{
 }
 .food_Description{
   width: 70%;
-
+  overflow-y: scroll;
   margin: 0 0 1% 5%;
+  max-height: 300px;
+}
+.food_Description hr{
+  width: 20%;
+  text-align: left;
+  margin-left:0;
 }
 .take{
   position: absolute;
